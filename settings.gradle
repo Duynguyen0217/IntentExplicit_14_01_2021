@@ -1,0 +1,2 @@
+include ':app'
+rootProject.name='IntentExplicit_14_01_2021'

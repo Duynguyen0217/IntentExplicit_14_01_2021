@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    tools:context=".MainActivity">
+
+   <Button
+       android:onClick="sendString"
+       android:id="@+id/buttonSendString"
+       android:text="Send String"
+       android:layout_width="wrap_content"
+       android:layout_height="wrap_content"/>
+
+    <Button
+        android:onClick="sendIntArray"
+        android:id="@+id/buttonSendIntArray"
+        android:text="Send Int Array"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+
+    <Button
+        android:onClick="sendObject"
+        android:id="@+id/buttonSendObject"
+        android:text="Send Int Object"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+
+
+</LinearLayout>
